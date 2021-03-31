@@ -1,0 +1,159 @@
+.fullcalendar .fc-toolbar .fc-button {
+  background-color: transparent;
+  border-color: #dddddd;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-shadow: none;
+  background-image: none;
+  height: auto;
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-right: 10px;
+  padding: 3px 12px;
+}
+
+.fullcalendar .fc-toolbar .fc-button:hover {
+  background-color: #428bfa;
+  border-color: #428bfa;
+  color: #ffffff;
+}
+
+.fullcalendar .fc-toolbar .fc-button .fc-icon {
+  font-family: inherit;
+  margin: 0;
+}
+
+.fullcalendar .fc-toolbar .fc-button .fc-icon.fa {
+  font-family: "FontAwesome" !important;
+}
+
+.fullcalendar .fc-toolbar .fc-button .fc-icon[class*="ti"] {
+  font-family: "themify" !important;
+}
+
+.fullcalendar .fc-toolbar .fc-button .fc-icon.zmdi {
+  font-family: "Material-Design-Iconic-Font" !important;
+}
+
+.fullcalendar .fc-toolbar .fc-button .fc-icon.crypto {
+  font-family: "cryptocurrency-icons" !important;
+}
+
+.fullcalendar .fc-toolbar .fc-button:last-child {
+  margin-right: 0;
+}
+
+.fullcalendar .fc-toolbar .fc-button.fc-state-active {
+  background-color: #428bfa;
+  border-color: #428bfa;
+  color: #ffffff;
+}
+
+.fullcalendar .fc-toolbar h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.fullcalendar .fc-view-container .fc-event-container .fc-event {
+  border-color: transparent;
+  border-radius: 3px;
+  padding: 3px 5px;
+  background-color: #dddddd;
+}
+
+.fullcalendar .fc-view-container .fc-event-container .fc-event .fc-content {
+  padding-bottom: 1px;
+}
+
+.fullcalendar .fc-view-container .fc-event-container .fc-event.fc-event-primary, .fullcalendar .fc-view-container .fc-event-container .fc-event.fc-event-secondary, .fullcalendar .fc-view-container .fc-event-container .fc-event.fc-event-success, .fullcalendar .fc-view-container .fc-event-container .fc-event.fc-event-danger, .fullcalendar .fc-view-container .fc-event-container .fc-event.fc-event-warning, .fullcalendar .fc-view-container .fc-event-container .fc-event.fc-event-info {
+  color: #ffffff;
+}
+
+.fullcalendar .fc-view-container .fc-event-container .fc-event.fc-event-primary {
+  background-color: #428bfa;
+}
+
+.fullcalendar .fc-view-container .fc-event-container .fc-event.fc-event-secondary {
+  background-color: #fb7da4;
+}
+
+.fullcalendar .fc-view-container .fc-event-container .fc-event.fc-event-success {
+  background-color: #29db2d;
+}
+
+.fullcalendar .fc-view-container .fc-event-container .fc-event.fc-event-danger {
+  background-color: #fd427c;
+}
+
+.fullcalendar .fc-view-container .fc-event-container .fc-event.fc-event-warning {
+  background-color: #ff9666;
+}
+
+.fullcalendar .fc-view-container .fc-event-container .fc-event.fc-event-info {
+  background-color: #17a2b8;
+}
+
+.fullcalendar .fc-view-container .fc-day-grid-event {
+  margin: 5px 5px 0;
+}
+
+@media only screen and (max-width: 575px) {
+  .fullcalendar .fc-toolbar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+  .fullcalendar .fc-toolbar > * {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 100%;
+        -ms-flex: 1 0 100%;
+            flex: 1 0 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 15px;
+  }
+  .fullcalendar .fc-toolbar h2 {
+    display: block;
+    float: none;
+  }
+  .fullcalendar .fc-toolbar h2 {
+    display: block;
+    float: none;
+  }
+  .fullcalendar .fc-toolbar .fc-left {
+    -webkit-box-ordinal-group: 4;
+    -webkit-order: 3;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  .fullcalendar .fc-toolbar .fc-right {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .fullcalendar .fc-toolbar .fc-center {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .fullcalendar .fc-toolbar .fc-clear {
+    display: none;
+  }
+}

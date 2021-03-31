@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}  
+body {
+    background: #202334;
+    font-family: "Open Sans", sans-serif;
+}
+/* =============cryptocurrency start============== */
+.m-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+.body_bg {
+    background: #202334;
+}
+.content_bg {
+    background: #161824;
+}
+a {
+    text-decoration: none !important;
+}   
+.purple {
+    background: linear-gradient(rgb(66, 2, 66),purple) !important;
+}
+.dark_purple {
+    background: rgb(63, 3, 63);
+}
+.blue {
+    background: linear-gradient(rgb(5, 68, 185),rgb(0, 119, 255));
+}
+.dark_blue {
+    background: rgb(23, 57, 116);
+}
+.red {
+    background: linear-gradient(rgb(148, 0, 32),rgb(255, 0, 76));
+}
+.dark_red {
+    background: rgb(117, 11, 37);
+}
+.yellow {
+    background: rgb(255, 136, 0);
+}
+.dark_yellow {
+    background: rgb(175, 101, 3);
+}
+.row .col-12 .heading span {
+    font-size: 20px;
+    color: rgb(112, 111, 111);
+}
+.input-group-text, .custom-select {
+    background: #161824 !important;
+    border: none;
+}
+table thead tr th span, table tbody tr td span {
+    color: #636572;
+}
+.badge {
+    color: white;
+    padding: 6px 14px !important;
+
+}
+.badge:hover {
+    cursor: pointer;
+}
+.map_padding {
+    padding-bottom: 8px;
+}
+/* =============cryptocurrency stop============== */
+/* ================widget start================== */
+.table thead th {
+    border-bottom: 2px solid #636572;
+}
+.table td, .table th {
+    border-top: 1px solid #636572;
+}
+.card_style {
+    background: #161824 !important;
+}
+table tbody tr td p {
+    margin-bottom: 0;
+    color: #636572;
+}
+table thead tr td {
+    font-size: 1.5rem;
+}
+table tbody tr td input {
+    background: #161824;
+    border: none;
+    outline: none;
+    padding: 15px;
+}
+table tbody tr td div{
+    display: inline-block;
+    color: #636572;
+    padding: 4px;
+}
+.Iconpy {
+    padding-top: 12px !important;
+}
+.Icon {
+    font-size: 21px;
+    padding: 0;
+}
+.Icon i {
+    transition: all 0.3s;
+}
+.Icon i:hover {
+    color: red !important;
+    cursor: pointer;
+}
+.badge:hover {
+    background: #7683d8;
+}
+.selection tbody tr th {
+    padding-top: 32px;
+}
+.selection tbody tr td,a {
+    padding-top: 32px;
+}
+.timg {
+    padding-top: 11px !important;
+}
+/* ================widget stop================== */
+/* =================Acoordions start================ */
+section .row .col-12 div .px {
+    padding: 3px 0px;
+}
+.box {
+    word-wrap: break-word;
+    background-color: #fafafa;
+}
+  
+.box .box-head {
+    padding: 20px 25px;
+    border-bottom: 1px solid #f1f1f1;
+}
+  
+.box .box-head .title {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+  
+.box .box-head p {
+    margin-top: 5px;
+}
+  
+.box .box-body {
+    padding: 25px;
+}
+  
+.box .box-foot {
+    padding: 0 25px 25px;
+}
+.collapsed_y {
+    background: #202334;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}  
+.collapsed_y:focus {
+    background: #202334 !important;
+    font-size: 1.5rem !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+button, input, optgroup, select, textarea {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    line-height: inherit;
+    background: #202334;
+    box-shadow: none !important;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+.accordion>.card>.card-header {
+    border-radius: 0;
+    margin-bottom: -1px;
+    border-bottom: 4px solid #161824;
+}
+.card-body {
+    border-bottom: 4px solid #161824;
+    
+}
+.card_body_padding {
+    padding-bottom: 10px;
+}
+.box .box-head {
+    padding: 20px 25px;
+    border-bottom: 2px solid #202334;
+}
+.row .col-12 div .px span {
+    font-size: 20px;
+    color: rgb(112, 111, 111);
+}
+/* =================Acoordions stop================ */
+/* ==================alert start=================== */
+.alt-alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 0 !important;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.alert-outline-primary {
+    outline: 2px solid #007BFF;
+    color: #007BFF;
+}
+.alert-outline-secondary {
+    outline: 2px solid #6C757D;
+    color: #6C757D;
+}
+.alert-outline-success {
+    outline: 2px solid #28A745;
+    color: #28A745;
+}
+.alert-outline-info {
+    outline: 2px solid #17A2B8;
+    color: #17A2B8;
+}
+.alert-outline-dark {
+    outline: 2px solid #343A40;
+    color: #343A40;
+}
+.alert-outline-light {
+    outline: 2px solid white;
+    color: azure;
+}
+.alert-outline-warning {
+    outline: 2px solid #FFC107;
+    color: #FFC107;
+}
+.alert-outline-danger {
+    outline: 2px solid #DC3545;
+    color: #DC3545;
+}
+.text-sample {
+    color: rgb(59, 46, 236);
+}
+.btn_bg {
+    font-size: 17.5px;
+    padding: 5px 9px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+/* ==================alert stop=================== */
+/* footer start */
+.allButFooter {
+    min-height: calc(100vh - 60px); 
+}
